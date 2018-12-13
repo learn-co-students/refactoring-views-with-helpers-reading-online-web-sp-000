@@ -5,7 +5,7 @@
 1.  Understand how and when to use helper methods
 2.  Create helper methods for specific controllers
 3.  Create application-wide helpers
-
+# comment  
 ## A Story As Old As `strftime`
 
 Let's imagine we're working on a blog application. In fact, we don't even have
