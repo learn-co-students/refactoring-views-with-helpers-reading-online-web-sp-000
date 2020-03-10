@@ -1,5 +1,11 @@
+<% title @author.name %>
+
 <h1><%= @author.name %></h1>
 <p>Posts:</p>
 <% @author.posts.each do |post| %>
-  <div><%= post.title %></div>
+  <div><%= post.title %> - <%= last_updated post %></div>
 <% end %>
+<!--
+Helpers are organized by controller, but they aren't restricted to a single controller.
+ you can also use any of your own helpers in any view. Our last_updated helper is still a Post concern (so we know to look for it in the PostsHelper), but if an author page or any other page needs to use it they can.
+-->
