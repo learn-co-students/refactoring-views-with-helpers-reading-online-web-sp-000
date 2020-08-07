@@ -11,7 +11,7 @@
 Let's imagine we're working on a blog application. In fact, we don't even have
 to imagine it because there's a blog app included in the lesson. Use it to
 follow along and try out the code yourself.
-
+#
 We've already added the presentation logic to show a blog post:
 
 ```erb
