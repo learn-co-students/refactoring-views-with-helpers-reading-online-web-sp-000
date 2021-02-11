@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+@author = Author.create!(name: "William Fletcher", genre: "Mystery" ,bio: "lorem ipsum")
+@author = Author.create!(name: "William Scott", genre: "Science" ,bio: "lorem ipsum")
+@author = Author.create!(name: "Grace Johnson", genre: "Mystery" ,bio: "lorem ipsum")
