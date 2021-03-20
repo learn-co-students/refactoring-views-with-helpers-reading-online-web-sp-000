@@ -31,7 +31,7 @@ to display that.
 <!-- app/views/posts/show.html.erb -->
 
 <h1><%= @post.title %></h1>
-<p>Last updated: <%= @post.updated_at %></p>
+<p>Last updated: <%= @post.updated_at %></p> 
 <p><%= @post.description %></p>
 ```
 
