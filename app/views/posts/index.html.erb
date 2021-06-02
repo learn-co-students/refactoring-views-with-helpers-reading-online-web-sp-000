@@ -1,3 +1,5 @@
-<% @posts.each do |post| %>
-  <div><%= post.title %></div>
-<% end %>
+<% title "posts index: #{@posts.size}" %>
+
+  <% @posts.each do |post| %>
+    <div><%= post.title %> - <%= last_updated post %></div>
+  <% end %>
